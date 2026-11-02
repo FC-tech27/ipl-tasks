@@ -1,6 +1,23 @@
-"scripts": {
-  "build": "tsc",
-  "dev": "ts-node-dev --respawn src/index.ts",
-  "test": "jest",
-  "test:coverage": "jest --coverage"
+{
+  "name": "ipl-tasks",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn src/index.ts",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.5.2",
+    "jest": "^30.5.2",
+    "ts-jest": "^29.4.15",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.2"
+  }
 }
